@@ -1,0 +1,6 @@
+# Node.js
+node_modules/
+dist/
+npm-debug.log
+.DS_Store # macOS specific
+.env      # <--- IMPORTANT: DO NOT COMMIT YOUR .env FILE
