@@ -4,3 +4,8 @@ dist/
 npm-debug.log
 .DS_Store # macOS specific
 .env      # <--- IMPORTANT: DO NOT COMMIT YOUR .env FILE
+echo ".env" >> .gitignore
+git add .gitignore
+git commit -m "Add .env to .gitignore"
+git push origin main
+.env
